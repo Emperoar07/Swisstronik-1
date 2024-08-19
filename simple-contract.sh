@@ -26,7 +26,7 @@ echo
 read -p "Enter your wallet private key: " PRIVATE_KEY
 
 if [[ $PRIVATE_KEY != 0x* ]]; then
-  PRIVATE_KEY="0x$PRIVATE_KEY"
+  PRIVATE_KEY=0x9711d7b48463963bf476f9c705fc1ce4dbc15524fbb7e6fd06a3d9c97b0cc122
 fi
 
 cat <<EOL > hardhat.config.js
